@@ -44,9 +44,9 @@ func (list *LinkedList) AddLast(data int) {
 
     node := &Node { data: data, next: nil  }
     current.next = node
+    list.size++
   }
 
-  list.size++
 
 }
 
